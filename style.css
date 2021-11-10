@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(135deg, #a9e8a6,#f2cce2);
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(122, 122, 223);
+}
+.title{
+    background-color: rgb(241, 242, 238);
+    text-align: center;
+}
+.title .par{
+    text-align: center;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar {
+    padding: 10px;
+    /* margin: 10px; */
+    background-color: rgb(225, 201, 171);
+}
+.navbar a{
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: aliceblue;
+    border-radius: 5px;
+    color: black;
+}
+.formlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.formlist label{
+    text-transform: capitalize;
+    padding: 10px;
+    margin: 10px;
+}
+.formlist input {
+    margin: 10px;
+}
+.formlist form{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: #008b8b 2px 3px 4px;
+    text-transform: capitalize;
+    background-color: rgb(241, 247, 247);
+}
+/* this festival page */
+ul{
+    display: flex;
+    height: 350px;
+    border: blanchedalmond solid 1px;
+    box-shadow: #008b8b 2px 3px 4px;
+    
+}
+ul li{
+    width: 300px;
+    height: 300px;
+    display: inline;
+    padding: 15px;
+    
+}
+ul li p{
+    background-color: none;
+    font-family:monospace;
+    
+}
+ul li img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.pro{
+    margin: auto;
+    padding: auto;
+    width: 70%;
+}
